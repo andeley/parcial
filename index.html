@@ -1,0 +1,261 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1,minimum-scale=1">
+	<title>ObsequiArte</title>
+	
+        <link href="css/estilos.css" rel="stylesheet">
+        <script src="cargar.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        
+</head>
+<body style="background-color:#F5A9BC">
+	<header>
+	<nav class="navbar navbar-default navbar-static-top">
+	<div class="container-fluid">
+	<div class="navbar-header">
+		 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+		 	 <span class="sr-only">Este boton despliega la barra de navegacion</span>
+		 	<span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+
+                    </button>
+                    <a class="navbar-brand" href="javascript:cargaContenido('index.html','get',muestraContenido)">Obsequiarte</a>
+                    </div>
+                <div id="navbar" class="navbar-collapse collapse">  <!--colapser la barra de navegacion-->
+                    <ul class="nav navbar-nav">
+				<li><a href="#">Quienes Somos</a></li>
+				<li><a href="index.html">Productos</a></li>
+				<li><a href="javascript:cargaContenido('forms/Contacto.html','get',muestraContenido)">Contacto</a></li>
+
+			</ul>
+				<ul class="nav navbar-nav">
+				<li id="carrito"><a href="#"><img src="imagenes/carrito.png" width="30px" height="30px"> Carrito (0)- $ 0 COP</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="javascript:cargaContenido('forms/login.html','get',muestraContenido)">Iniciar Sesion</a></li>
+				<li><a href="javascript:cargaContenido('forms/registro.html','get',muestraContenido)">Registrate</a></li>
+			</ul>
+		</div>
+		<div>
+			<img id="im" src="imagenes/img1.jpg" width="100%" height="300px">
+	</div>
+</header>
+		
+</nav>
+<div class="mover" id="main-content">
+		<div class="container">
+			<h1>Lista de Obsequios</h1>
+		<div class="row">
+		<div class="col-md-3 col-xs-3">
+			<img class="imagen" src="imagenes/desayuno.jpg" width="200px">
+			<div class="row">
+				<div class="col-md-12 col-xs-12">
+					<p>
+						<h4>Desayuno Sorpresa</h4>
+						<h5>Desayunos y sorpresas</h5>
+
+						Espectacular detalle   $50000
+					</p>
+					
+				</div>
+				<div class="row">
+						<div class="col-md-2 col-xs-0"></div>
+					<button>Añadir al Carrito
+					</button>
+					<button>Más>></button>
+				</div>
+				
+			</div>
+		</div>
+		<div class="col-md-3 col-xs-3">
+			<img class="imagen" src="imagenes/oso.jpg" width="200px" height="250px">
+			<div class="row">
+				<div class="col-md-12 col-xs-12">
+					<p>
+						<h4>Detalle 2</h4>
+						<h5>Oso de Peluche</h5>
+
+						Espectacular detalle   $160000
+					</p>
+					
+				</div>
+				<div class="row">
+						<div class="col-md-2 col-xs-0"></div>
+					<button>Añadir al Carrito
+					</button>
+					<button>Más>></button>
+				</div>
+				
+			</div>
+		</div>
+		<div class="col-md-3 col-xs-3">
+			<img class="imagen" src="imagenes/aretes.jpg" width="200px" height="250px">
+			<div class="row">
+				<div class="col-md-12 col-xs-12">
+					<p>
+						<h4>Detalle 3</h4>
+						<h5>Juego de aretes</h5>
+
+						Espectacular detalle   $50000
+					</p>
+					
+				</div>
+				<div class="row">
+						<div class="col-md-2 col-xs-0"></div>
+					<button>Añadir al Carrito
+					</button>
+					<button>Más>></button>
+				</div>
+				
+			</div>
+		</div>
+		<div class="col-md-3 col-xs-3">
+			<img class="imagen" src="imagenes/vitral.jpg" width="200px" height="250px">
+			<div class="row">
+				<div class="col-md-12 col-xs-12">
+					<p>
+						<h4>Detalle4</h4>
+						<h5>Hermoso Vitral</h5>
+
+						Espectacular detalle   $20000
+					</p>
+					
+				</div>
+				<div class="row">
+						<div class="col-md-2 col-xs-0"></div>
+					<button>Añadir al Carrito
+					</button>
+					<button>Más>></button>
+				</div>
+				
+			</div>
+		</div>
+		</div>
+		<!--segunda fila productos-->
+		<div class="row">
+		<div class="col-md-3 col-xs-3">
+			<img class="imagen" src="imagenes/zapatos.jpg" width="200px">
+			<div class="row">
+				<div class="col-md-12 col-xs-12">
+					<p>
+						<h4>Detalle 5</h4>
+						<h5>Zapatos</h5>
+
+						Espectacular detalle   $150000
+					</p>
+					
+				</div>
+				<div class="row">
+						<div class="col-md-2 col-xs-0"></div>
+					<button>Añadir al Carrito
+					</button>
+					<button>Más>></button>
+				</div>
+				
+			</div>
+		</div>
+		<div class="col-md-3 col-xs-3">
+			<img class="imagen" src="imagenes/bolso.jpg" width="200px">
+			<div class="row">
+				<div class="col-md-12 col-xs-12">
+					<p>
+						<h4>Detalle 6</h4>
+						<h5>Bolso</h5>
+
+						Espectacular detalle   $80000
+					</p>
+					
+				</div>
+				<div class="row">
+						<div class="col-md-2 col-xs-0"></div>
+					<button>Añadir al Carrito
+					</button>
+					<button>Más>></button>
+				</div>
+				
+			</div>
+		</div>
+		<div class="col-md-3 col-xs-3">
+			<img class="imagen" src="imagenes/blusa.jpg" width="200px">
+			<div class="row">
+				<div class="col-md-12 col-xs-12">
+					<p>
+						<h4>Detalle 7</h4>
+						<h5>Blusa Americana</h5>
+
+						Espectacular detalle   $100000
+					</p>
+					
+				</div>
+				<div class="row">
+						<div class="col-md-2 col-xs-0"></div>
+					<button>Añadir al Carrito
+					</button>
+					<button>Más>></button>
+				</div>
+				
+			</div>
+		</div>
+		<div class="col-md-3 col-xs-3">
+			<img class="imagen" src="imagenes/a.jpg" width="200px">
+			<div class="row">
+				<div class="col-md-12 col-xs-12">
+					<p>
+						<h4>Detalle 8</h4>
+						<h5>Caja Sorpresa</h5>
+
+						Espectacular detalle   $50000
+					</p>
+					
+				</div>
+				<div class="row">
+						<div class="col-md-2 col-xs-0"></div>
+					<button>Añadir al Carrito
+					</button>
+					<button>Más>></button>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<footer>
+	<div class="division">
+		<a href="http://vive.gobiernoenlinea.gov.co/" target="_blank"><img src="imagenes/logogc.png" width="100%" height="50px"></a>
+	</div>
+	<div class="division">
+		<a href="http://www.codaltec.com/" target="_blank"><img src="imagenes/logoCodaltec.png" width="100%" height="50px"></a>
+	</div>
+	<div class="division">
+		<a href="http://www.mintic.gov.co/portal/604/w3-channel.html" target="_blank"><img src="imagenes/Mintic.png" width="100%" height="50px"></a>
+	</div>
+	<div class="division">
+		<a href="http://www.cccucuta.org.co/" target="_blank"><img src="imagenes/camarac.jpg" width="100%" height="50px"></a>
+	</div>
+	<div class="division">
+			<a href="https://ww2.ufps.edu.co/" target="_blank"><img src="imagenes/logo_ufps.png" width="100%" height="70px"></a>
+	</div>
+	<nav>
+		Todos los derechos reservados  Obsequiarte.Aplica terminos y condiciones.
+	</nav>
+</footer>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <!--<script src="js/jquery.min.js"></script>
+
+        <script src="js/bootstrap.min.js"></script> 
+
+        <script src="js/bootstrap.js"></script> -->
+
+</body>
+</div>
+
+</html>
